@@ -15,10 +15,10 @@ final int    size_w       = 4000;                  // Width of the image
 final int    size_h       = 4000;                  // Height of the image
 final int    image_count  = 3;                     // How many images to generate. image_count>0
 final float  scale        = 2;                     // Scale of the image
-final String textureFile  = "textures/igne.jpg";   // null or a JPG/PNG filename for the texture
+final String textureFile  = "textures/water.jpg";  // null or a JPG/PNG filename for the texture
                                                    // to be used to texture the cornucopias.
-final int texture_rep_ns = 6;                      // Repetition of the texture North to South
-final int texture_rep_ew = 8;                      // Repetition of the texture East to West
+final int texture_rep_ns = 2;                      // Repetition of the texture North to South
+final int texture_rep_ew = 3;                      // Repetition of the texture East to West
 
 ////////////////////////////////////////////////////////////////////////
 // Spine
