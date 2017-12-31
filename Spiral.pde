@@ -1,10 +1,14 @@
+/*
+ * Spiral
+ * Author: Lorenzo Pasqualis
+ */
+ 
 class Spiral extends Contour {
-  
-  float thickness=6;
   
   public Spiral(float small_r, float large_r, 
                 float theta1, float theta2,  
-                int points_n) {
+                int points_n,
+                float thickness) {
 
     PVector[] points1 = spiralPoints(small_r, large_r, theta1, theta2, points_n);
     PVector[] points2 = spiralPoints(small_r-thickness, large_r-thickness, theta1, theta2, points_n);
